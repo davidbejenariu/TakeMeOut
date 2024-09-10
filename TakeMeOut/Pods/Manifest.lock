@@ -1,0 +1,20 @@
+PODS:
+  - FloatingPanel (2.6.1)
+  - GooglePlaces (8.0.0)
+
+DEPENDENCIES:
+  - FloatingPanel
+  - GooglePlaces (= 8.0.0)
+
+SPEC REPOS:
+  trunk:
+    - FloatingPanel
+    - GooglePlaces
+
+SPEC CHECKSUMS:
+  FloatingPanel: de6bb891912ede28da7b1140f7b583c474fec28a
+  GooglePlaces: 46231f49e2dc52aa9a604f99e2e6b29996f30cc7
+
+PODFILE CHECKSUM: 19d83046262d50337fbaf4c42ed0f50278822150
+
+COCOAPODS: 1.12.1

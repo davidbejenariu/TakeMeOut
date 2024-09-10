@@ -1,0 +1,6 @@
+framework module Pods_TakeMeOut {
+  umbrella header "Pods-TakeMeOut-umbrella.h"
+
+  export *
+  module * { export * }
+}
