@@ -10,7 +10,7 @@ import GooglePlaces
 import CoreLocation
 
 class PlacesManager {
-    let apiKey = "fsq3PT/8Oeo6o7apqVhA12+X3SKxkjTQic3uGcDbgjBsrzI="
+    let apiKey = "replace-with-actual-key"
     
     func getPlaceDetails(for name: String, with coordinate: CLLocationCoordinate2D, completion: @escaping (LocationDetailsModel) -> Void) {
         let details = LocationDetailsModel()
@@ -175,7 +175,7 @@ class PlacesManager {
 
 class GooglePlacesManager {
     let manager = GMSPlacesClient.shared()
-    let apiKey = "AIzaSyBFAIiAXcV786NGalG7glhzogeIUEdOA3Q"
+    let apiKey = "replace-with-actual-key"
     
     func getPlaceId(from coordinate: CLLocationCoordinate2D, completion: @escaping (String) -> Void) {
         let urlString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(coordinate.latitude),\(coordinate.longitude)&radius=5&key=\(apiKey)"
